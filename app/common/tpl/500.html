@@ -1,0 +1,97 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta charset=utf-8" />
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>500</title>
+    <style>
+        body {
+            /*background-color: #ECECEC;*/
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #3c3c3c;
+        }
+        .demo{
+            margin-top: 170px;
+            margin-left: 300px;
+             width:1000px;
+
+        ;}
+        .demo p:first-child {
+            text-align: center;
+            font-family: cursive;
+            font-size: 150px;
+            font-weight: bold;
+            line-height: 100px;
+            letter-spacing: 5px;
+            color: #fff;
+        }
+        .el-button+.el-button {
+            margin-left: 10px;
+        }
+        .el-button--mini, .el-button--mini.is-round {
+            padding: 7px 15px;
+        }
+        .el-button--mini, .el-button--small {
+            font-size: 12px;
+            border-radius: 3px;
+        }
+        .el-button--primary {
+            color: #FFF;
+            background-color: #409EFF;
+            border-color: #409EFF;
+        }
+        .el-button {
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            /*background: #FFF;*/
+            border: 1px solid #DCDFE6;
+            /*color: #606266;*/
+            -webkit-appearance: none;
+            text-align: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            outline: 0;
+            margin: 0;
+            -webkit-transition: .1s;
+            transition: .1s;
+            font-weight: 500;
+            padding: 7px 15px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="demo">
+    <img style="float: left" src="/static/images/500.png">
+    <div style="width: 200px;height:300px;float: left">
+    <img style="float: left;margin-top: 100px" src="/static/images/500F.png">
+
+        <button style="margin-top: 30px;margin-left: 30px" type="button" class="el-button el-button--primary el-button--mini">
+            <span onclick="countDown(5,'/')">返回首页</span>
+        </button>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    // countDown(5,'/');
+</script>
+<script type="text/javascript">
+    function countDown(secs,surl){
+
+        location.href=surl;
+
+    }
+</script>
+</body>
+</html>

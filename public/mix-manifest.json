@@ -1,0 +1,21 @@
+{
+    "/js/main.js": "/js/main.js",
+    "/js/components-AuthButton-vue.js": "/js/components-AuthButton-vue.js",
+    "/js/components-AuthRouterLink-vue.js": "/js/components-AuthRouterLink-vue.js",
+    "/js/components-Log-vue.js": "/js/components-Log-vue.js",
+    "/js/pages-exception-403-vue.js": "/js/pages-exception-403-vue.js",
+    "/js/pages-exception-404-vue.js": "/js/pages-exception-404-vue.js",
+    "/js/pages-exception-500-vue.js": "/js/pages-exception-500-vue.js",
+    "/js/pages-group-allot-rule-vue.js": "/js/pages-group-allot-rule-vue.js",
+    "/js/pages-group-index-vue.js": "/js/pages-group-index-vue.js",
+    "/js/pages-group-view-vue.js": "/js/pages-group-view-vue.js",
+    "/js/pages-home-index-vue.js": "/js/pages-home-index-vue.js",
+    "/js/pages-login-index-vue.js": "/js/pages-login-index-vue.js",
+    "/js/pages-rule-index-vue.js": "/js/pages-rule-index-vue.js",
+    "/js/pages-rule-view-vue.js": "/js/pages-rule-view-vue.js",
+    "/js/pages-user-change-pass-vue.js": "/js/pages-user-change-pass-vue.js",
+    "/js/pages-user-group-vue.js": "/js/pages-user-group-vue.js",
+    "/js/pages-user-index-vue.js": "/js/pages-user-index-vue.js",
+    "/js/pages-user-view-vue.js": "/js/pages-user-view-vue.js",
+    "/css/app.css": "/css/app.css"
+}
