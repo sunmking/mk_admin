@@ -14,7 +14,7 @@ class InitData extends Seeder
      */
     public function run()
     {
-        $sql1 = "INSERT INTO `tb_auth_user` (`id`, `username`, `password_hash`, `name`, `salt`, `sex`, `department_id`, `position_id`, `work_number`, `img`, `desc`, `status`, `create_time`, `wechat`, `qq`, `email`, `mobile`, `school`, `address`, `skill`, `company_id`, `delete_time`, `update_time`) VALUES (1, 'admin', '76eb73a684c227bc7520bb3e7b6d6e43b1fc6bd6', '伊禾农品', '6560', 1, 1, 1, '', '', '', 1, 1608008396, '', '', '', '', '', '', '', 1, 0, 0);";
+        $sql1 = "INSERT INTO `tb_auth_user` (`id`, `username`, `password_hash`, `name`, `salt`, `sex`, `work_number`, `img`, `desc`, `status`, `create_time`, `wechat`, `qq`, `email`, `mobile`, `school`, `address`, `skill`, `delete_time`, `update_time`) VALUES (1, 'admin', '76eb73a684c227bc7520bb3e7b6d6e43b1fc6bd6', '伊禾农品', '6560', 1, '', '', '', 1, 1608008396, '', '', '', '', '', '', '', 0, 0);";
         $this->execute($sql1);
         $sql2 = "INSERT INTO `tb_auth_group` (`id`, `name`, `status`, `remark`, `create_time`, `update_time`) VALUES (1, '超级管理员', 1, '管理员', 4294967295, 4294967295);";
         $this->execute($sql2);
