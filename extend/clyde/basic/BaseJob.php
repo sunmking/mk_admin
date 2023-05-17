@@ -1,4 +1,5 @@
 <?php
+
 namespace clyde\basic;
 
 use clyde\interfaces\JobInterface;

@@ -1,4 +1,5 @@
 <?php
+
 namespace clyde\interfaces;
 
 use think\queue\Job;
